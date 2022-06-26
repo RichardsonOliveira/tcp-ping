@@ -31,7 +31,7 @@ Options:
 ```
 
 This script requires 3 parameters, Host (-H), Port (-P) and count (-c).
-A simple commando to verify perfomance to google is:
+A simple command to verify perfomance to google is:
 ```shell
 $ python3 tcpping.py -H google.com -P 443 -c 10
 ```
