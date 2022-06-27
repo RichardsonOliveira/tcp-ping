@@ -65,7 +65,7 @@ def tcp_check(host, port, maxCount):
         flt_rtd = [float(x) for x in results]
         avg_rtd = statistics.fmean(flt_rtd)
         print("\nTCP Ping Results: Connections (Total/Passed/Failed): [{:}/{:}/{:}]".format((count), passed, failed))
-        print("\nLatency Metrics: \n\nMinimun: {:} ms \nAverage: {:} ms \nMaximum: {:} ms \nPacket Loss: {:}%".format(min(results), avg_rtd, max(results), str(lRate)))
+        print("\nLatency Metrics: \n\nMinimun: {:} ms \nAverage: {:} ms \nMaximum: {:} ms \nPacket Loss: {:}%".format(min(results), str(round(avg_rtd, 2)), max(results), str(lRate)))
        
     # Catch Ctrl-C and Exit
     def signal_handler(signal, frame):
