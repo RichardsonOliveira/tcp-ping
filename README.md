@@ -13,7 +13,7 @@ $ git clone git@github.com:RichardsonOliveira/tcp-ping.git
 ```
 Go to the folder where it is located.
 ```shell
-cd tcp-ping
+$ cd tcp-ping
 ```
 
 # Usage
@@ -31,9 +31,9 @@ Options:
 ```
 
 This script requires 3 parameters, Host (-H), Port (-P) and count (-c).
-A simple commando to verify perfomance to google is:
+A simple command to verify perfomance to google is:
 ```shell
-python3 tcpping.py -H google.com -P 443 -c 10
+$ python3 tcpping.py -H google.com -P 443 -c 10
 ```
 The command above will perfom 10 pings to google.com address on port 443, and then show you the perfomance, as shown below.
 ```shell
