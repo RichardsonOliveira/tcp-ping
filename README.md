@@ -4,7 +4,9 @@ A simple Pyhton script to check connection perfomance via TCP protocol for hosts
 It is a simple script inspired by yantisj tcpping script with some modules addes, like optparser and a summary of the perfomance measured.
 
 # Installation
-This script requires Python3.
+This requires:
+Git
+Python3
 
 Clone the repository.
 
